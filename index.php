@@ -21,7 +21,7 @@
     	{ load: 'js/common.js' },
     	<?php */ ?>
     	<?php /* concatenate and optimize seperate script files for deployment using google closure compiler (compiler.jar) in js folder */ ?>
-    	{ load : 'js/theme.js' },
+    	{  load : 'js/theme.js' },
     	{ load: '//connect.facebook.net/en_US/all.js#xfbml=1' },
     	{ load: '//platform.twitter.com/widgets.js' }
     ]);
