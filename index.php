@@ -11,8 +11,8 @@
   <script type="text/javascript" src="js/modernizr.js"></script>
   <script type="text/javascript">
   
-     var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-28492745-1']);
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-126032-5']);
    _gaq.push(['_trackPageview']);
   
     Modernizr.load([
@@ -28,7 +28,9 @@
     	<?php /* concatenate and optimize seperate script files for deployment using google closure compiler (compiler.jar) in js folder */ ?>
     	{ load : 'js/theme.js' },
     	{ load: '//connect.facebook.net/en_US/all.js#xfbml=1' },
-    	{ load: '//platform.twitter.com/widgets.js' }
+    	{ load: '//platform.twitter.com/widgets.js' },
+		{ load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js' }
+
     ]);
   </script>
 	  	<link rel="stylesheet" href="css/main.css" />
@@ -51,7 +53,7 @@
 		
 		  <div class="sm">
 		  	<div class="fb-like" data-href="<?php echo $_SERVER['PATH_INFO'] ?>" data-send="false" data-layout="button_count" data-width="60" data-show-faces="false"></div>
-	        <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo $_SERVER['PATH_INFO'] ?>">Tweet</a>
+	        <a href="https://twitter.com/share" class="twitter-share-button" data-url="&nbsp;" data-text="I just took a Zipstagram World Tour. Check out the pics here: http://zipstagram.com #getoutandzip via @zipcar">Tweet</a>
 		  </div>		
 		
 		<div class="right">
@@ -106,7 +108,7 @@
 	    </div>
 	    <div class="links">
 	      <a href="http://www.zipcar.com/zipstagram/" title="Join Zipcar" target="_blank">join zipcar</a>
-	      <a href="http://www.zipcar.com/find-cars/" title="Reserve a car with Zipcar" target="_blank">reserve a car</a>
+	      <a href="http://www.zipcar.com/register/" title="Reserve a car with Zipcar" target="_blank">reserve a car</a>
 	      <a href="#" id="play-along" title="Play ">play along</a>
 	    </div>
 	    <div class="copy">Copyright © 2012 Zipcar, Inc. All Rights Reserved.</div>
