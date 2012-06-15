@@ -511,7 +511,7 @@
 	
 	//data is the properties object passed around to the markers
 	function moveMap( data ){
-		map.setView( new L.LatLng( data.latitude, data.longitude ), 13, false );
+		map.setView( new L.LatLng( data.latitude, data.longitude ), 7, false );
 	}
 	
 	function Popup( id, popunderId, modal ){

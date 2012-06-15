@@ -10,6 +10,11 @@
   
   <script type="text/javascript" src="js/modernizr.js"></script>
   <script type="text/javascript">
+  
+     var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-28492745-1']);
+   _gaq.push(['_trackPageview']);
+  
     Modernizr.load([
       { load: ['//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'],
     	  complete: function(){ if(!window.jQuery){ Modernizr.load('js/jquery.js'); } }
@@ -21,7 +26,7 @@
     	{ load: 'js/common.js' },
     	<?php */ ?>
     	<?php /* concatenate and optimize seperate script files for deployment using google closure compiler (compiler.jar) in js folder */ ?>
-    	{  load : 'js/theme.js' },
+    	{ load : 'js/theme.js' },
     	{ load: '//connect.facebook.net/en_US/all.js#xfbml=1' },
     	{ load: '//platform.twitter.com/widgets.js' }
     ]);
@@ -100,8 +105,8 @@
 	      <div class="slug"></div>
 	    </div>
 	    <div class="links">
-	      <a href="http://www.zipcar.com" title="Join Zipcar">join zipcar</a>
-	      <a href="http://www.zipcar.com/find-cars/" title="Reserve a car with Zipcar">reserve a car</a>
+	      <a href="http://www.zipcar.com/zipstagram/" title="Join Zipcar" target="_blank">join zipcar</a>
+	      <a href="http://www.zipcar.com/find-cars/" title="Reserve a car with Zipcar" target="_blank">reserve a car</a>
 	      <a href="#" id="play-along" title="Play ">play along</a>
 	    </div>
 	    <div class="copy">Copyright © 2012 Zipcar, Inc. All Rights Reserved.</div>
@@ -116,11 +121,11 @@
 <div id="cache-version" style="display:none;"><?php include 'cache/instahash_cache_version_number.json'; ?></div>
 <div id="modal-content">
   <article class="insta-wrap modal-wrap">
-    <h2>zipsters don't just sit there</h2>
-    <h3>we created this nifty page to help you enjoy photographs from zipsters around the world</h3>
+    <h2>don’t just zipping sit there</h2>
+    <h3>share and enjoy photos from zipcar drivers around the world</h3>
     <div class="content">
       <strong>play along:</strong>
-      <p>Want to share your photos?  Install the instagram app on your phone. <br />Find and follow @zipcar, then, simply tag your photos with #zipcar. You just be your creative self and we'll take care of the rest.</p>
+      <p>Want to share your photos? Install the Instagram app on your phone. Find and follow @zipcar, then, simply tag your pics with #zipcar. You just be your creative self.</p>
     </div>
     <button>continue</button>
   </article>
