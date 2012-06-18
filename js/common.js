@@ -125,7 +125,7 @@
 				carousel.css({ left: currentLeft });
 			} else {
 				carousel.stop( false, false ).animate({
-					left: left
+					left: currentLeft
 				}, img.time);
 			}
 		}
