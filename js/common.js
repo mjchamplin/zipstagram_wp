@@ -303,7 +303,9 @@
 
 		//var alldata = null;
 		//var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/cfc96afd35bc4c12b3f06893fff79e8c/60666/256/{z}/{x}/{y}.png',
-		var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/cfc96afd35bc4c12b3f06893fff79e8c/61923/256/{z}/{x}/{y}.png',
+		//var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/cfc96afd35bc4c12b3f06893fff79e8c/61923/256/{z}/{x}/{y}.png',
+		var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/cfc96afd35bc4c12b3f06893fff79e8c/65622/256/{z}/{x}/{y}.png',
+
 			cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 12});
 
 
