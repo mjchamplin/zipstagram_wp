@@ -5,9 +5,7 @@
 <!--[if IE 9 ]><html lang="" class="no-js ie ie9 lte9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="" class="newbie no-js"><!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  
-  
+  <meta charset="utf-8">  
   <script type="text/javascript" src="js/modernizr.js"></script>
   <script type="text/javascript">
   
@@ -36,9 +34,9 @@
 	  	<link rel="stylesheet" href="css/main.css" />
 
 		<title>Zipcar + Instagram</title>
-		<meta name="description" content="" />
-	  <meta name="keywords" content="" />
-		<meta name="robots" content="" />
+  		<meta name="description" content="Don’t just zipping sit there, share and enjoy photos from Zipcar drivers around the world with Instagram." >
+ 		<meta name="keywords" content="zipcar, instagram, maps, travel, cars, share">
+		<meta property="og:image" content="images/zipstagram.png" />
 </head>
 
 <body>
