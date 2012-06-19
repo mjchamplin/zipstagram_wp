@@ -1,0 +1,12 @@
+Zipcar + Instagram. This app takes instagram photos with various hashtags (#zipcar, etc.) and plots them on a custom map. 
+
+Technologies:
+
+	- Instagram API 
+	- leaflet.js + cloudmade
+	- reverse geocoding via open streetmaps
+	- database management via Wordpress
+
+Created for Zipcar [http://zipcar.com]
+
+A collaboration with Ben J. Allen [http://benjrallen.com/].
