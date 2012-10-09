@@ -81,7 +81,7 @@ $header-bord: 5px;
 				
 		& #nav{
 			@include adjust-font-size-to( 14px, 1 );
-			text-transform: lowercase;
+			/*text-transform: lowercase;*/
 			padding-right: 4em;
 
 			& span{
