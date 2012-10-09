@@ -107,6 +107,8 @@
 	    <div class="links">
 	      <a href="http://www.zipcar.com/zipstagram/" title="Join Zipcar" target="_blank">join zipcar</a>
 	      <a href="http://www.zipcar.com/register/" title="Reserve a car with Zipcar" target="_blank">reserve a car</a>
+	      <a href="http://www.zipcar.com/localadventurescontest" title="terms and conditions - local adventures contest">terms and conditions – local adventures contest</a>
+
 	      <a href="#" id="play-along" title="Play ">play along</a>
 	    </div>
 	    <div class="copy">Copyright © 2012 Zipcar, Inc. All Rights Reserved.</div>
